@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/eddeT/aoc-2022/d01"
+	"github.com/eddeT/aoc-2022/d02"
 )
 
 func main() {
@@ -17,5 +18,9 @@ func main() {
 		d01.P0()
 		d01.P1()
 		d01.P2()
+	case 2:
+		d02.P0()
+		d02.P1()
+		d02.P2()
 	}
 }
