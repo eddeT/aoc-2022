@@ -5,12 +5,13 @@ import (
 
 	"github.com/eddeT/aoc-2022/d01"
 	"github.com/eddeT/aoc-2022/d02"
+	"github.com/eddeT/aoc-2022/d03"
 )
 
 func main() {
 
 	var input int
-	fmt.Printf("Enter the day you want to test: ")
+	fmt.Printf("Enter the day you want to test [1-24]: ")
 	fmt.Scan(&input)
 
 	switch day := input; day {
@@ -22,5 +23,10 @@ func main() {
 		d02.P0()
 		d02.P1()
 		d02.P2()
+	case 3:
+		d03.P0()
+	default:
+		fmt.Print("Input out of bounds")
 	}
+
 }
