@@ -51,7 +51,7 @@ func calculateSinglePriorty(item byte) int {
 }
 
 func P0() {
-	rucksacks := input.ReadLines("d03/1.input")
+	rucksacks := input.ReadLines("d03/0.input")
 	score := 0
 	for _, rucksack := range rucksacks {
 		commonItem := findCommonItem(splitRucksack(rucksack))
@@ -60,6 +60,17 @@ func P0() {
 
 	fmt.Println(score)
 
+}
+
+func P1() {
+	rucksacks := input.ReadLines("d03/1.input")
+	score := 0
+	for _, rucksack := range rucksacks {
+		commonItem := findCommonItem(splitRucksack(rucksack))
+		score += calculateSinglePriorty(byte(commonItem[0]))
+	}
+
+	fmt.Println(score)
 }
 
 func P2() {
