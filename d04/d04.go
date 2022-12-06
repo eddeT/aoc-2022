@@ -53,7 +53,11 @@ func compareCleaningOverlapAny(elf1, elf2 elfCleaner) int {
 		for j := elf2.low; j <= elf2.high; j++ {
 			if j == i {
 				match = true
+				break
 			}
+		}
+		if match {
+			break
 		}
 	}
 
