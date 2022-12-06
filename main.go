@@ -25,6 +25,7 @@ func main() {
 		d02.P2()
 	case 3:
 		d03.P0()
+		d03.P2()
 	default:
 		fmt.Print("Input out of bounds")
 	}
