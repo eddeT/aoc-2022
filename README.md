@@ -3,6 +3,6 @@
 
 
 
-<input type="checkbox" disabled checked /> Day 1: Calorie Counting\
-<input type="checkbox" disabled checked /> Day 2: Rock Paper Scissors\
-<input type="checkbox" disabled unchecked /> Day 3: Rucksack Reorganization
+* [x] Day 1: Calorie Counting\
+* [x] Day 2: Rock Paper Scissors\
+* [ ] Day 3: Rucksack Reorganization
