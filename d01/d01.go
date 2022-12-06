@@ -1,3 +1,4 @@
+// --- Day 1: Calorie Counting ---
 package d01
 
 import (
