@@ -7,6 +7,7 @@ import (
 	"github.com/eddeT/aoc-2022/d02"
 	"github.com/eddeT/aoc-2022/d03"
 	"github.com/eddeT/aoc-2022/d04"
+	"github.com/eddeT/aoc-2022/d05"
 )
 
 func main() {
@@ -32,6 +33,11 @@ func main() {
 		d04.P0()
 		d04.P1()
 		d04.P2()
+	case 5:
+		d05.P1("0")
+		d05.P1("1")
+		d05.P2("0")
+		d05.P2("1")
 	default:
 		fmt.Print("Input out of bounds")
 	}
